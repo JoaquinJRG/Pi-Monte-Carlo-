@@ -9,7 +9,7 @@
 <body>
     <main>
         <section id="seccion-izq">
-            <canvas id="grafico">
+            <canvas id="grafico" width="500" height="500">
 
             </canvas>
         </section>
@@ -17,7 +17,7 @@
         <section id="seccion-dere">
             <div id="div-arriba">
                 <p>Puntos: <span id="numPuntos">10</span></p>
-                <input type="range" min="10" max="10000" value="10" id="rangoNum">
+                <input type="range" min="10" max="50000" value="10" id="rangoNum">
                 <button id="simular">Simular</button>
             </div>
             <div id="div-centro">
@@ -28,7 +28,6 @@
                 <p>&#960; ≈ 4 * P.dentro / P.total = <span id="resultadoPi"></span></p>
             </div>
         </section>
-        <hr>
     </main>
 
     <script src="index.js"></script>
