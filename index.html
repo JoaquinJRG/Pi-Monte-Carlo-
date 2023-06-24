@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pi Monte Carlo</title>
+</head>
+<body>
+    <main>
+        <section id="seccion-izq">
+            <canvas id="grafico">
+
+            </canvas>
+        </section>
+    
+        <section id="seccion-dere">
+            <div id="div-arriba">
+                <p>Puntos: <span id="numPuntos">10</span></p>
+                <input type="range" min="10" max="10000" value="10" id="rangoNum">
+                <button id="simular">Simular</button>
+            </div>
+            <div id="div-centro">
+                <p>Puntos dentro: <span id="puntosDentro">0</span></p>
+                <p>Puntos totales: <span id="totalPuntos">10</span></p>
+            </div>
+            <div id="div-abajo">
+                <p>&#960; ≈ 4 * P.dentro / P.total = <span id="resultadoPi"></span></p>
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
