@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <title>Pi Monte Carlo</title>
 </head>
 <body>
     <main>
-        <section id="seccion-izq">
+        <section id="seccion-arriba">
             <canvas id="grafico" width="500" height="500">
-
             </canvas>
         </section>
     
-        <section id="seccion-dere">
+        <section id="seccion-abajo">
             <div id="div-arriba">
                 <p>Puntos: <span id="numPuntos">10</span></p>
                 <input type="range" min="10" max="50000" value="10" id="rangoNum">
-                <button id="simular">Simular</button>
+                <button id="simular">Calcular</button>
             </div>
             <div id="div-centro">
                 <p>Puntos dentro: <span id="puntosDentro">0</span></p>

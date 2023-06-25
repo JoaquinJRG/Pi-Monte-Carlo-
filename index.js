@@ -82,9 +82,9 @@ function dibujarPunto(punto){
     ctx.arc(x, y, 1.5, 0, 2 * Math.PI);
 
     if((x)*(x) + (y - 500)*(y - 500) <= 500*500){
-        ctx.fillStyle = "red";
+        ctx.fillStyle = "#0075FF";
     }else{
-        ctx.fillStyle = "blue";
+        ctx.fillStyle = "#ef4565";
     }
 
     ctx.fill();
