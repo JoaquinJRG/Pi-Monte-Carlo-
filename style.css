@@ -11,7 +11,7 @@ body{
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: #fffffe;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 main{
@@ -93,4 +93,7 @@ button:hover{
     margin-top: 20px;
 }
 
+a {
+    color: #0075FF;
+}
 
